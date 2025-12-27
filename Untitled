@@ -1,0 +1,6 @@
+DATABASE_URL= "postgresql://postgres:postgres@localhost:5432/aparatus"
+DATABASE_URL_LOCAL="postgresql://postgres:postgres@localhost:5432/aparatus"
+DATABASE_URL_NEON="postgresql://neondb_owner:...@ep-green-queen-...neon.tech/neondb?sslmode=require&channel_binding=require"
+
+# a que o Prisma realmente usa:
+DATABASE_URL="${DATABASE_URL_NEON}"
